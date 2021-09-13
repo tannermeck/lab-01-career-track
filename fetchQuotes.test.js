@@ -1,6 +1,5 @@
 import fetchQuotes from './fetchQuotes.js';
 
-
 describe('returns an object with a name, text, and image key value pair', () => {
   it('should return a list of quotes in object format with a name, text, and image key value pair', async () => {
     const quote = await fetchQuotes();
