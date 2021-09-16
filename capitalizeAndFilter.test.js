@@ -8,7 +8,7 @@ describe('takes in an array of strings and filters out strings starting with the
     const secondArray = ['frisbee', 'golf', 'longboarding', 'Football'];
     const secondFilter = capitalizeAndFilter(secondArray);
 
-    expect(filter).toEqual(['leprachaun', 'speech']);
-    expect(secondFilter).toEqual(['golf', 'longboarding']);
+    expect(filter).toEqual(['LEPRACHAUN', 'SPEECH']);
+    expect(secondFilter).toEqual(['GOLF', 'LONGBOARDING']);
   });
 });
